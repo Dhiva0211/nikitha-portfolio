@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+set -x
+set -e
+
+# Source the ".env" file so Laravel's environment variables are available...
+if [ -f ./.env ]; then
+    source ./.env
+fi
+
+if [ "$1" == "npm" ] || [ "$1" == "yarn" ];
+then
+    docker exec upunikself_app-web-1 $*
+fi
+
+if [ "$1" == "npx" ];
+then
+    docker exec -it upunikself_app-web-1 $*
+fi
+
+if [ "$1" == "deploy-dev" ] && [ "$2" == "with-build" ];
+then
+    docker compose -f docker-compose.dev.yml --verbose up -d --build
+    docker system prune -f
+fi
+
+if [ "$1" == "deploy-dev" ] && [ "$2" != "with-build" ];
+then
+    docker compose -f docker-compose.dev.yml up -d 
+    docker system prune -f
+fi
+
+if [ "$1" == "deploy-prod" ];
+then
+    docker compose -f docker-compose.yml up -d --build
+    docker system prune -f
+fi
+
+if [ "$1" == "build-prod" ];
+then
+    docker compose -f docker-compose.yml build --progress plain
+fi

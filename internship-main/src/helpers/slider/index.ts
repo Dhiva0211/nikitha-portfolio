@@ -1,0 +1,1 @@
+export { sliderSettings } from './settings';

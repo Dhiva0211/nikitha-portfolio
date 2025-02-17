@@ -1,0 +1,19 @@
+FROM node:19
+
+RUN apk add --no-cache libc6-compat g++ cmake make openssl libressl-dev git
+
+WORKDIR /app
+COPY . .
+
+RUN mkdir /app/cache
+
+WORKDIR /app/cache
+
+COPY package.json ./
+COPY yarn.lock ./
+
+RUN yarn install
+
+WORKDIR /app
+
+CMD ["sh", "deployment/app/entrypoint.dev.sh"]

@@ -1,0 +1,74 @@
+name: upunikself_app
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: ./deployment/app/Dockerfile
+    image: upunikself_app
+    restart: always
+    ports:
+      - '${APP_PORT}:3000'
+    networks:
+      - net
+    depends_on:
+      - database
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: 'postgresql://${DB_USERNAME}:${DB_PASSWORD}@database/${DB_DATABASE}?schema=public'
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+  database:
+    image: 'postgres'
+    restart: always
+    ports:
+      - '${APP_DB_FORWARD_PORT:-5432}:5432'
+    environment:
+      PGPASSWORD: '${DB_PASSWORD:-secret}'
+      POSTGRES_DB: '${DB_DATABASE}'
+      POSTGRES_USER: '${DB_USERNAME}'
+      POSTGRES_PASSWORD: '${DB_PASSWORD:-secret}'
+    volumes:
+      - 'db:/var/lib/postgresql/data'
+    networks:
+      - net
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'pg_isready',
+          '-q',
+          '-d',
+          '${DB_DATABASE}',
+          '-U',
+          '${DB_USERNAME}',
+        ]
+      retries: 3
+      timeout: 5s
+
+  schemaspy:
+    build:
+      context: './'
+      args:
+        POSTGRES_DB: '${DB_DATABASE}'
+        POSTGRES_USER: '${DB_USERNAME}'
+        POSTGRES_PASSWORD: '${DB_PASSWORD:-secret}'
+      dockerfile: ./deployment/schemaspy/Dockerfile
+    volumes:
+      - schemaspy:/usr/share/nginx/html
+    networks:
+      - net
+    ports:
+      - '${APP_SCHEMASPY_FORWARD_PORT:-80}:80'
+    depends_on:
+      - database
+
+networks:
+  net:
+    driver: bridge
+volumes:
+  db:
+    driver: local
+  schemaspy:
+    driver: local

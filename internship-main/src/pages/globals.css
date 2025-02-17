@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  @apply border-deep-sapphire text-deep-sapphire;
+}
+
+*,
+*::before,
+*::after {
+  @apply border-deep-sapphire;
+}
+
+summary {
+  display: block;
+}
+
+/* Create a new custom triangle on the right side */
+summary::after {
+  margin-left: 1ch;
+  display: inline-block;
+  content: '▶';
+  transition: 0.2s;
+}
+
+details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+input[type='color']::-webkit-color-swatch {
+  @apply border-deep-sapphire;
+}

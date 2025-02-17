@@ -1,0 +1,1202 @@
+[
+  {
+    "COUNTRY": "United States",
+    "COUNTRYCODE": 1,
+    "ISOCODES": "US / USA"
+  },
+  {
+    "COUNTRY": "Afghanistan",
+    "COUNTRYCODE": 93,
+    "ISOCODES": "AF / AFG"
+  },
+  {
+    "COUNTRY": "Albania",
+    "COUNTRYCODE": 355,
+    "ISOCODES": "AL / ALB"
+  },
+  {
+    "COUNTRY": "Algeria",
+    "COUNTRYCODE": 213,
+    "ISOCODES": "DZ / DZA"
+  },
+  {
+    "COUNTRY": "American Samoa",
+    "COUNTRYCODE": "1-684",
+    "ISOCODES": "AS / ASM"
+  },
+  {
+    "COUNTRY": "Andorra",
+    "COUNTRYCODE": 376,
+    "ISOCODES": "AD / AND"
+  },
+  {
+    "COUNTRY": "Angola",
+    "COUNTRYCODE": 244,
+    "ISOCODES": "AO / AGO"
+  },
+  {
+    "COUNTRY": "Anguilla",
+    "COUNTRYCODE": "1-264",
+    "ISOCODES": "AI / AIA"
+  },
+  {
+    "COUNTRY": "Antarctica",
+    "COUNTRYCODE": 672,
+    "ISOCODES": "AQ / ATA"
+  },
+  {
+    "COUNTRY": "Antigua and Barbuda",
+    "COUNTRYCODE": "1-268",
+    "ISOCODES": "AG / ATG"
+  },
+  {
+    "COUNTRY": "Argentina",
+    "COUNTRYCODE": 54,
+    "ISOCODES": "AR / ARG"
+  },
+  {
+    "COUNTRY": "Armenia",
+    "COUNTRYCODE": 374,
+    "ISOCODES": "AM / ARM"
+  },
+  {
+    "COUNTRY": "Aruba",
+    "COUNTRYCODE": 297,
+    "ISOCODES": "AW / ABW"
+  },
+  {
+    "COUNTRY": "Australia",
+    "COUNTRYCODE": 61,
+    "ISOCODES": "AU / AUS"
+  },
+  {
+    "COUNTRY": "Austria",
+    "COUNTRYCODE": 43,
+    "ISOCODES": "AT / AUT"
+  },
+  {
+    "COUNTRY": "Azerbaijan",
+    "COUNTRYCODE": 994,
+    "ISOCODES": "AZ / AZE"
+  },
+  {
+    "COUNTRY": "Bahamas",
+    "COUNTRYCODE": "1-242",
+    "ISOCODES": "BS / BHS"
+  },
+  {
+    "COUNTRY": "Bahrain",
+    "COUNTRYCODE": 973,
+    "ISOCODES": "BH / BHR"
+  },
+  {
+    "COUNTRY": "Bangladesh",
+    "COUNTRYCODE": 880,
+    "ISOCODES": "BD / BGD"
+  },
+  {
+    "COUNTRY": "Barbados",
+    "COUNTRYCODE": "1-246",
+    "ISOCODES": "BB / BRB"
+  },
+  {
+    "COUNTRY": "Belarus",
+    "COUNTRYCODE": 375,
+    "ISOCODES": "BY / BLR"
+  },
+  {
+    "COUNTRY": "Belgium",
+    "COUNTRYCODE": 32,
+    "ISOCODES": "BE / BEL"
+  },
+  {
+    "COUNTRY": "Belize",
+    "COUNTRYCODE": 501,
+    "ISOCODES": "BZ / BLZ"
+  },
+  {
+    "COUNTRY": "Benin",
+    "COUNTRYCODE": 229,
+    "ISOCODES": "BJ / BEN"
+  },
+  {
+    "COUNTRY": "Bermuda",
+    "COUNTRYCODE": "1-441",
+    "ISOCODES": "BM / BMU"
+  },
+  {
+    "COUNTRY": "Bhutan",
+    "COUNTRYCODE": 975,
+    "ISOCODES": "BT / BTN"
+  },
+  {
+    "COUNTRY": "Bolivia",
+    "COUNTRYCODE": 591,
+    "ISOCODES": "BO / BOL"
+  },
+  {
+    "COUNTRY": "Bosnia and Herzegovina",
+    "COUNTRYCODE": 387,
+    "ISOCODES": "BA / BIH"
+  },
+  {
+    "COUNTRY": "Botswana",
+    "COUNTRYCODE": 267,
+    "ISOCODES": "BW / BWA"
+  },
+  {
+    "COUNTRY": "Brazil",
+    "COUNTRYCODE": 55,
+    "ISOCODES": "BR / BRA"
+  },
+  {
+    "COUNTRY": "British Indian Ocean Territory",
+    "COUNTRYCODE": 246,
+    "ISOCODES": "IO / IOT"
+  },
+  {
+    "COUNTRY": "British Virgin Islands",
+    "COUNTRYCODE": "1-284",
+    "ISOCODES": "VG / VGB"
+  },
+  {
+    "COUNTRY": "Brunei",
+    "COUNTRYCODE": 673,
+    "ISOCODES": "BN / BRN"
+  },
+  {
+    "COUNTRY": "Bulgaria",
+    "COUNTRYCODE": 359,
+    "ISOCODES": "BG / BGR"
+  },
+  {
+    "COUNTRY": "Burkina Faso",
+    "COUNTRYCODE": 226,
+    "ISOCODES": "BF / BFA"
+  },
+  {
+    "COUNTRY": "Burundi",
+    "COUNTRYCODE": 257,
+    "ISOCODES": "BI / BDI"
+  },
+  {
+    "COUNTRY": "Cambodia",
+    "COUNTRYCODE": 855,
+    "ISOCODES": "KH / KHM"
+  },
+  {
+    "COUNTRY": "Cameroon",
+    "COUNTRYCODE": 237,
+    "ISOCODES": "CM / CMR"
+  },
+  {
+    "COUNTRY": "Canada",
+    "COUNTRYCODE": 1,
+    "ISOCODES": "CA / CAN"
+  },
+  {
+    "COUNTRY": "Cape Verde",
+    "COUNTRYCODE": 238,
+    "ISOCODES": "CV / CPV"
+  },
+  {
+    "COUNTRY": "Cayman Islands",
+    "COUNTRYCODE": "1-345",
+    "ISOCODES": "KY / CYM"
+  },
+  {
+    "COUNTRY": "Central African Republic",
+    "COUNTRYCODE": 236,
+    "ISOCODES": "CF / CAF"
+  },
+  {
+    "COUNTRY": "Chad",
+    "COUNTRYCODE": 235,
+    "ISOCODES": "TD / TCD"
+  },
+  {
+    "COUNTRY": "Chile",
+    "COUNTRYCODE": 56,
+    "ISOCODES": "CL / CHL"
+  },
+  {
+    "COUNTRY": "China",
+    "COUNTRYCODE": 86,
+    "ISOCODES": "CN / CHN"
+  },
+  {
+    "COUNTRY": "Christmas Island",
+    "COUNTRYCODE": 61,
+    "ISOCODES": "CX / CXR"
+  },
+  {
+    "COUNTRY": "Cocos Islands",
+    "COUNTRYCODE": 61,
+    "ISOCODES": "CC / CCK"
+  },
+  {
+    "COUNTRY": "Colombia",
+    "COUNTRYCODE": 57,
+    "ISOCODES": "CO / COL"
+  },
+  {
+    "COUNTRY": "Comoros",
+    "COUNTRYCODE": 269,
+    "ISOCODES": "KM / COM"
+  },
+  {
+    "COUNTRY": "Cook Islands",
+    "COUNTRYCODE": 682,
+    "ISOCODES": "CK / COK"
+  },
+  {
+    "COUNTRY": "Costa Rica",
+    "COUNTRYCODE": 506,
+    "ISOCODES": "CR / CRI"
+  },
+  {
+    "COUNTRY": "Croatia",
+    "COUNTRYCODE": 385,
+    "ISOCODES": "HR / HRV"
+  },
+  {
+    "COUNTRY": "Cuba",
+    "COUNTRYCODE": 53,
+    "ISOCODES": "CU / CUB"
+  },
+  {
+    "COUNTRY": "Curacao",
+    "COUNTRYCODE": 599,
+    "ISOCODES": "CW / CUW"
+  },
+  {
+    "COUNTRY": "Cyprus",
+    "COUNTRYCODE": 357,
+    "ISOCODES": "CY / CYP"
+  },
+  {
+    "COUNTRY": "Czech Republic",
+    "COUNTRYCODE": 420,
+    "ISOCODES": "CZ / CZE"
+  },
+  {
+    "COUNTRY": "Democratic Republic of the Congo",
+    "COUNTRYCODE": 243,
+    "ISOCODES": "CD / COD"
+  },
+  {
+    "COUNTRY": "Denmark",
+    "COUNTRYCODE": 45,
+    "ISOCODES": "DK / DNK"
+  },
+  {
+    "COUNTRY": "Djibouti",
+    "COUNTRYCODE": 253,
+    "ISOCODES": "DJ / DJI"
+  },
+  {
+    "COUNTRY": "Dominica",
+    "COUNTRYCODE": "1-767",
+    "ISOCODES": "DM / DMA"
+  },
+  {
+    "COUNTRY": "Dominican Republic",
+    "COUNTRYCODE": "1-809, 1-829, 1-849",
+    "ISOCODES": "DO / DOM"
+  },
+  {
+    "COUNTRY": "East Timor",
+    "COUNTRYCODE": 670,
+    "ISOCODES": "TL / TLS"
+  },
+  {
+    "COUNTRY": "Ecuador",
+    "COUNTRYCODE": 593,
+    "ISOCODES": "EC / ECU"
+  },
+  {
+    "COUNTRY": "Egypt",
+    "COUNTRYCODE": 20,
+    "ISOCODES": "EG / EGY"
+  },
+  {
+    "COUNTRY": "El Salvador",
+    "COUNTRYCODE": 503,
+    "ISOCODES": "SV / SLV"
+  },
+  {
+    "COUNTRY": "Equatorial Guinea",
+    "COUNTRYCODE": 240,
+    "ISOCODES": "GQ / GNQ"
+  },
+  {
+    "COUNTRY": "Eritrea",
+    "COUNTRYCODE": 291,
+    "ISOCODES": "ER / ERI"
+  },
+  {
+    "COUNTRY": "Estonia",
+    "COUNTRYCODE": 372,
+    "ISOCODES": "EE / EST"
+  },
+  {
+    "COUNTRY": "Ethiopia",
+    "COUNTRYCODE": 251,
+    "ISOCODES": "ET / ETH"
+  },
+  {
+    "COUNTRY": "Falkland Islands",
+    "COUNTRYCODE": 500,
+    "ISOCODES": "FK / FLK"
+  },
+  {
+    "COUNTRY": "Faroe Islands",
+    "COUNTRYCODE": 298,
+    "ISOCODES": "FO / FRO"
+  },
+  {
+    "COUNTRY": "Fiji",
+    "COUNTRYCODE": 679,
+    "ISOCODES": "FJ / FJI"
+  },
+  {
+    "COUNTRY": "Finland",
+    "COUNTRYCODE": 358,
+    "ISOCODES": "FI / FIN"
+  },
+  {
+    "COUNTRY": "France",
+    "COUNTRYCODE": 33,
+    "ISOCODES": "FR / FRA"
+  },
+  {
+    "COUNTRY": "French Polynesia",
+    "COUNTRYCODE": 689,
+    "ISOCODES": "PF / PYF"
+  },
+  {
+    "COUNTRY": "Gabon",
+    "COUNTRYCODE": 241,
+    "ISOCODES": "GA / GAB"
+  },
+  {
+    "COUNTRY": "Gambia",
+    "COUNTRYCODE": 220,
+    "ISOCODES": "GM / GMB"
+  },
+  {
+    "COUNTRY": "Georgia",
+    "COUNTRYCODE": 995,
+    "ISOCODES": "GE / GEO"
+  },
+  {
+    "COUNTRY": "Germany",
+    "COUNTRYCODE": 49,
+    "ISOCODES": "DE / DEU"
+  },
+  {
+    "COUNTRY": "Ghana",
+    "COUNTRYCODE": 233,
+    "ISOCODES": "GH / GHA"
+  },
+  {
+    "COUNTRY": "Gibraltar",
+    "COUNTRYCODE": 350,
+    "ISOCODES": "GI / GIB"
+  },
+  {
+    "COUNTRY": "Greece",
+    "COUNTRYCODE": 30,
+    "ISOCODES": "GR / GRC"
+  },
+  {
+    "COUNTRY": "Greenland",
+    "COUNTRYCODE": 299,
+    "ISOCODES": "GL / GRL"
+  },
+  {
+    "COUNTRY": "Grenada",
+    "COUNTRYCODE": "1-473",
+    "ISOCODES": "GD / GRD"
+  },
+  {
+    "COUNTRY": "Guam",
+    "COUNTRYCODE": "1-671",
+    "ISOCODES": "GU / GUM"
+  },
+  {
+    "COUNTRY": "Guatemala",
+    "COUNTRYCODE": 502,
+    "ISOCODES": "GT / GTM"
+  },
+  {
+    "COUNTRY": "Guernsey",
+    "COUNTRYCODE": "44-1481",
+    "ISOCODES": "GG / GGY"
+  },
+  {
+    "COUNTRY": "Guinea",
+    "COUNTRYCODE": 224,
+    "ISOCODES": "GN / GIN"
+  },
+  {
+    "COUNTRY": "Guinea-Bissau",
+    "COUNTRYCODE": 245,
+    "ISOCODES": "GW / GNB"
+  },
+  {
+    "COUNTRY": "Guyana",
+    "COUNTRYCODE": 592,
+    "ISOCODES": "GY / GUY"
+  },
+  {
+    "COUNTRY": "Haiti",
+    "COUNTRYCODE": 509,
+    "ISOCODES": "HT / HTI"
+  },
+  {
+    "COUNTRY": "Honduras",
+    "COUNTRYCODE": 504,
+    "ISOCODES": "HN / HND"
+  },
+  {
+    "COUNTRY": "Hong Kong",
+    "COUNTRYCODE": 852,
+    "ISOCODES": "HK / HKG"
+  },
+  {
+    "COUNTRY": "Hungary",
+    "COUNTRYCODE": 36,
+    "ISOCODES": "HU / HUN"
+  },
+  {
+    "COUNTRY": "Iceland",
+    "COUNTRYCODE": 354,
+    "ISOCODES": "IS / ISL"
+  },
+  {
+    "COUNTRY": "India",
+    "COUNTRYCODE": 91,
+    "ISOCODES": "IN / IND"
+  },
+  {
+    "COUNTRY": "Indonesia",
+    "COUNTRYCODE": 62,
+    "ISOCODES": "ID / IDN"
+  },
+  {
+    "COUNTRY": "Iran",
+    "COUNTRYCODE": 98,
+    "ISOCODES": "IR / IRN"
+  },
+  {
+    "COUNTRY": "Iraq",
+    "COUNTRYCODE": 964,
+    "ISOCODES": "IQ / IRQ"
+  },
+  {
+    "COUNTRY": "Ireland",
+    "COUNTRYCODE": 353,
+    "ISOCODES": "IE / IRL"
+  },
+  {
+    "COUNTRY": "Isle of Man",
+    "COUNTRYCODE": "44-1624",
+    "ISOCODES": "IM / IMN"
+  },
+  {
+    "COUNTRY": "Israel",
+    "COUNTRYCODE": 972,
+    "ISOCODES": "IL / ISR"
+  },
+  {
+    "COUNTRY": "Italy",
+    "COUNTRYCODE": 39,
+    "ISOCODES": "IT / ITA"
+  },
+  {
+    "COUNTRY": "Ivory Coast",
+    "COUNTRYCODE": 225,
+    "ISOCODES": "CI / CIV"
+  },
+  {
+    "COUNTRY": "Jamaica",
+    "COUNTRYCODE": "1-876",
+    "ISOCODES": "JM / JAM"
+  },
+  {
+    "COUNTRY": "Japan",
+    "COUNTRYCODE": 81,
+    "ISOCODES": "JP / JPN"
+  },
+  {
+    "COUNTRY": "Jersey",
+    "COUNTRYCODE": "44-1534",
+    "ISOCODES": "JE / JEY"
+  },
+  {
+    "COUNTRY": "Jordan",
+    "COUNTRYCODE": 962,
+    "ISOCODES": "JO / JOR"
+  },
+  {
+    "COUNTRY": "Kazakhstan",
+    "COUNTRYCODE": 7,
+    "ISOCODES": "KZ / KAZ"
+  },
+  {
+    "COUNTRY": "Kenya",
+    "COUNTRYCODE": 254,
+    "ISOCODES": "KE / KEN"
+  },
+  {
+    "COUNTRY": "Kiribati",
+    "COUNTRYCODE": 686,
+    "ISOCODES": "KI / KIR"
+  },
+  {
+    "COUNTRY": "Kosovo",
+    "COUNTRYCODE": 383,
+    "ISOCODES": "XK / XKX"
+  },
+  {
+    "COUNTRY": "Kuwait",
+    "COUNTRYCODE": 965,
+    "ISOCODES": "KW / KWT"
+  },
+  {
+    "COUNTRY": "Kyrgyzstan",
+    "COUNTRYCODE": 996,
+    "ISOCODES": "KG / KGZ"
+  },
+  {
+    "COUNTRY": "Laos",
+    "COUNTRYCODE": 856,
+    "ISOCODES": "LA / LAO"
+  },
+  {
+    "COUNTRY": "Latvia",
+    "COUNTRYCODE": 371,
+    "ISOCODES": "LV / LVA"
+  },
+  {
+    "COUNTRY": "Lebanon",
+    "COUNTRYCODE": 961,
+    "ISOCODES": "LB / LBN"
+  },
+  {
+    "COUNTRY": "Lesotho",
+    "COUNTRYCODE": 266,
+    "ISOCODES": "LS / LSO"
+  },
+  {
+    "COUNTRY": "Liberia",
+    "COUNTRYCODE": 231,
+    "ISOCODES": "LR / LBR"
+  },
+  {
+    "COUNTRY": "Libya",
+    "COUNTRYCODE": 218,
+    "ISOCODES": "LY / LBY"
+  },
+  {
+    "COUNTRY": "Liechtenstein",
+    "COUNTRYCODE": 423,
+    "ISOCODES": "LI / LIE"
+  },
+  {
+    "COUNTRY": "Lithuania",
+    "COUNTRYCODE": 370,
+    "ISOCODES": "LT / LTU"
+  },
+  {
+    "COUNTRY": "Luxembourg",
+    "COUNTRYCODE": 352,
+    "ISOCODES": "LU / LUX"
+  },
+  {
+    "COUNTRY": "Macau",
+    "COUNTRYCODE": 853,
+    "ISOCODES": "MO / MAC"
+  },
+  {
+    "COUNTRY": "Macedonia",
+    "COUNTRYCODE": 389,
+    "ISOCODES": "MK / MKD"
+  },
+  {
+    "COUNTRY": "Madagascar",
+    "COUNTRYCODE": 261,
+    "ISOCODES": "MG / MDG"
+  },
+  {
+    "COUNTRY": "Malawi",
+    "COUNTRYCODE": 265,
+    "ISOCODES": "MW / MWI"
+  },
+  {
+    "COUNTRY": "Malaysia",
+    "COUNTRYCODE": 60,
+    "ISOCODES": "MY / MYS"
+  },
+  {
+    "COUNTRY": "Maldives",
+    "COUNTRYCODE": 960,
+    "ISOCODES": "MV / MDV"
+  },
+  {
+    "COUNTRY": "Mali",
+    "COUNTRYCODE": 223,
+    "ISOCODES": "ML / MLI"
+  },
+  {
+    "COUNTRY": "Malta",
+    "COUNTRYCODE": 356,
+    "ISOCODES": "MT / MLT"
+  },
+  {
+    "COUNTRY": "Marshall Islands",
+    "COUNTRYCODE": 692,
+    "ISOCODES": "MH / MHL"
+  },
+  {
+    "COUNTRY": "Mauritania",
+    "COUNTRYCODE": 222,
+    "ISOCODES": "MR / MRT"
+  },
+  {
+    "COUNTRY": "Mauritius",
+    "COUNTRYCODE": 230,
+    "ISOCODES": "MU / MUS"
+  },
+  {
+    "COUNTRY": "Mayotte",
+    "COUNTRYCODE": 262,
+    "ISOCODES": "YT / MYT"
+  },
+  {
+    "COUNTRY": "Mexico",
+    "COUNTRYCODE": 52,
+    "ISOCODES": "MX / MEX"
+  },
+  {
+    "COUNTRY": "Micronesia",
+    "COUNTRYCODE": 691,
+    "ISOCODES": "FM / FSM"
+  },
+  {
+    "COUNTRY": "Moldova",
+    "COUNTRYCODE": 373,
+    "ISOCODES": "MD / MDA"
+  },
+  {
+    "COUNTRY": "Monaco",
+    "COUNTRYCODE": 377,
+    "ISOCODES": "MC / MCO"
+  },
+  {
+    "COUNTRY": "Mongolia",
+    "COUNTRYCODE": 976,
+    "ISOCODES": "MN / MNG"
+  },
+  {
+    "COUNTRY": "Montenegro",
+    "COUNTRYCODE": 382,
+    "ISOCODES": "ME / MNE"
+  },
+  {
+    "COUNTRY": "Montserrat",
+    "COUNTRYCODE": "1-664",
+    "ISOCODES": "MS / MSR"
+  },
+  {
+    "COUNTRY": "Morocco",
+    "COUNTRYCODE": 212,
+    "ISOCODES": "MA / MAR"
+  },
+  {
+    "COUNTRY": "Mozambique",
+    "COUNTRYCODE": 258,
+    "ISOCODES": "MZ / MOZ"
+  },
+  {
+    "COUNTRY": "Myanmar",
+    "COUNTRYCODE": 95,
+    "ISOCODES": "MM / MMR"
+  },
+  {
+    "COUNTRY": "Namibia",
+    "COUNTRYCODE": 264,
+    "ISOCODES": "NA / NAM"
+  },
+  {
+    "COUNTRY": "Nauru",
+    "COUNTRYCODE": 674,
+    "ISOCODES": "NR / NRU"
+  },
+  {
+    "COUNTRY": "Nepal",
+    "COUNTRYCODE": 977,
+    "ISOCODES": "NP / NPL"
+  },
+  {
+    "COUNTRY": "Netherlands",
+    "COUNTRYCODE": 31,
+    "ISOCODES": "NL / NLD"
+  },
+  {
+    "COUNTRY": "Netherlands Antilles",
+    "COUNTRYCODE": 599,
+    "ISOCODES": "AN / ANT"
+  },
+  {
+    "COUNTRY": "New Caledonia",
+    "COUNTRYCODE": 687,
+    "ISOCODES": "NC / NCL"
+  },
+  {
+    "COUNTRY": "New Zealand",
+    "COUNTRYCODE": 64,
+    "ISOCODES": "NZ / NZL"
+  },
+  {
+    "COUNTRY": "Nicaragua",
+    "COUNTRYCODE": 505,
+    "ISOCODES": "NI / NIC"
+  },
+  {
+    "COUNTRY": "Niger",
+    "COUNTRYCODE": 227,
+    "ISOCODES": "NE / NER"
+  },
+  {
+    "COUNTRY": "Nigeria",
+    "COUNTRYCODE": 234,
+    "ISOCODES": "NG / NGA"
+  },
+  {
+    "COUNTRY": "Niue",
+    "COUNTRYCODE": 683,
+    "ISOCODES": "NU / NIU"
+  },
+  {
+    "COUNTRY": "North Korea",
+    "COUNTRYCODE": 850,
+    "ISOCODES": "KP / PRK"
+  },
+  {
+    "COUNTRY": "Northern Mariana Islands",
+    "COUNTRYCODE": "1-670",
+    "ISOCODES": "MP / MNP"
+  },
+  {
+    "COUNTRY": "Norway",
+    "COUNTRYCODE": 47,
+    "ISOCODES": "NO / NOR"
+  },
+  {
+    "COUNTRY": "Oman",
+    "COUNTRYCODE": 968,
+    "ISOCODES": "OM / OMN"
+  },
+  {
+    "COUNTRY": "Pakistan",
+    "COUNTRYCODE": 92,
+    "ISOCODES": "PK / PAK"
+  },
+  {
+    "COUNTRY": "Palau",
+    "COUNTRYCODE": 680,
+    "ISOCODES": "PW / PLW"
+  },
+  {
+    "COUNTRY": "Palestine",
+    "COUNTRYCODE": 970,
+    "ISOCODES": "PS / PSE"
+  },
+  {
+    "COUNTRY": "Panama",
+    "COUNTRYCODE": 507,
+    "ISOCODES": "PA / PAN"
+  },
+  {
+    "COUNTRY": "Papua New Guinea",
+    "COUNTRYCODE": 675,
+    "ISOCODES": "PG / PNG"
+  },
+  {
+    "COUNTRY": "Paraguay",
+    "COUNTRYCODE": 595,
+    "ISOCODES": "PY / PRY"
+  },
+  {
+    "COUNTRY": "Peru",
+    "COUNTRYCODE": 51,
+    "ISOCODES": "PE / PER"
+  },
+  {
+    "COUNTRY": "Philippines",
+    "COUNTRYCODE": 63,
+    "ISOCODES": "PH / PHL"
+  },
+  {
+    "COUNTRY": "Pitcairn",
+    "COUNTRYCODE": 64,
+    "ISOCODES": "PN / PCN"
+  },
+  {
+    "COUNTRY": "Poland",
+    "COUNTRYCODE": 48,
+    "ISOCODES": "PL / POL"
+  },
+  {
+    "COUNTRY": "Portugal",
+    "COUNTRYCODE": 351,
+    "ISOCODES": "PT / PRT"
+  },
+  {
+    "COUNTRY": "Puerto Rico",
+    "COUNTRYCODE": "1-787, 1-939",
+    "ISOCODES": "PR / PRI"
+  },
+  {
+    "COUNTRY": "Qatar",
+    "COUNTRYCODE": 974,
+    "ISOCODES": "QA / QAT"
+  },
+  {
+    "COUNTRY": "Republic of the Congo",
+    "COUNTRYCODE": 242,
+    "ISOCODES": "CG / COG"
+  },
+  {
+    "COUNTRY": "Reunion",
+    "COUNTRYCODE": 262,
+    "ISOCODES": "RE / REU"
+  },
+  {
+    "COUNTRY": "Romania",
+    "COUNTRYCODE": 40,
+    "ISOCODES": "RO / ROU"
+  },
+  {
+    "COUNTRY": "Russia",
+    "COUNTRYCODE": 7,
+    "ISOCODES": "RU / RUS"
+  },
+  {
+    "COUNTRY": "Rwanda",
+    "COUNTRYCODE": 250,
+    "ISOCODES": "RW / RWA"
+  },
+  {
+    "COUNTRY": "Saint Barthelemy",
+    "COUNTRYCODE": 590,
+    "ISOCODES": "BL / BLM"
+  },
+  {
+    "COUNTRY": "Saint Helena",
+    "COUNTRYCODE": 290,
+    "ISOCODES": "SH / SHN"
+  },
+  {
+    "COUNTRY": "Saint Kitts and Nevis",
+    "COUNTRYCODE": "1-869",
+    "ISOCODES": "KN / KNA"
+  },
+  {
+    "COUNTRY": "Saint Lucia",
+    "COUNTRYCODE": "1-758",
+    "ISOCODES": "LC / LCA"
+  },
+  {
+    "COUNTRY": "Saint Martin",
+    "COUNTRYCODE": 590,
+    "ISOCODES": "MF / MAF"
+  },
+  {
+    "COUNTRY": "Saint Pierre and Miquelon",
+    "COUNTRYCODE": 508,
+    "ISOCODES": "PM / SPM"
+  },
+  {
+    "COUNTRY": "Saint Vincent and the Grenadines",
+    "COUNTRYCODE": "1-784",
+    "ISOCODES": "VC / VCT"
+  },
+  {
+    "COUNTRY": "Samoa",
+    "COUNTRYCODE": 685,
+    "ISOCODES": "WS / WSM"
+  },
+  {
+    "COUNTRY": "San Marino",
+    "COUNTRYCODE": 378,
+    "ISOCODES": "SM / SMR"
+  },
+  {
+    "COUNTRY": "Sao Tome and Principe",
+    "COUNTRYCODE": 239,
+    "ISOCODES": "ST / STP"
+  },
+  {
+    "COUNTRY": "Saudi Arabia",
+    "COUNTRYCODE": 966,
+    "ISOCODES": "SA / SAU"
+  },
+  {
+    "COUNTRY": "Senegal",
+    "COUNTRYCODE": 221,
+    "ISOCODES": "SN / SEN"
+  },
+  {
+    "COUNTRY": "Serbia",
+    "COUNTRYCODE": 381,
+    "ISOCODES": "RS / SRB"
+  },
+  {
+    "COUNTRY": "Seychelles",
+    "COUNTRYCODE": 248,
+    "ISOCODES": "SC / SYC"
+  },
+  {
+    "COUNTRY": "Sierra Leone",
+    "COUNTRYCODE": 232,
+    "ISOCODES": "SL / SLE"
+  },
+  {
+    "COUNTRY": "Singapore",
+    "COUNTRYCODE": 65,
+    "ISOCODES": "SG / SGP"
+  },
+  {
+    "COUNTRY": "Sint Maarten",
+    "COUNTRYCODE": "1-721",
+    "ISOCODES": "SX / SXM"
+  },
+  {
+    "COUNTRY": "Slovakia",
+    "COUNTRYCODE": 421,
+    "ISOCODES": "SK / SVK"
+  },
+  {
+    "COUNTRY": "Slovenia",
+    "COUNTRYCODE": 386,
+    "ISOCODES": "SI / SVN"
+  },
+  {
+    "COUNTRY": "Solomon Islands",
+    "COUNTRYCODE": 677,
+    "ISOCODES": "SB / SLB"
+  },
+  {
+    "COUNTRY": "Somalia",
+    "COUNTRYCODE": 252,
+    "ISOCODES": "SO / SOM"
+  },
+  {
+    "COUNTRY": "South Africa",
+    "COUNTRYCODE": 27,
+    "ISOCODES": "ZA / ZAF"
+  },
+  {
+    "COUNTRY": "South Korea",
+    "COUNTRYCODE": 82,
+    "ISOCODES": "KR / KOR"
+  },
+  {
+    "COUNTRY": "South Sudan",
+    "COUNTRYCODE": 211,
+    "ISOCODES": "SS / SSD"
+  },
+  {
+    "COUNTRY": "Spain",
+    "COUNTRYCODE": 34,
+    "ISOCODES": "ES / ESP"
+  },
+  {
+    "COUNTRY": "Sri Lanka",
+    "COUNTRYCODE": 94,
+    "ISOCODES": "LK / LKA"
+  },
+  {
+    "COUNTRY": "Sudan",
+    "COUNTRYCODE": 249,
+    "ISOCODES": "SD / SDN"
+  },
+  {
+    "COUNTRY": "Suriname",
+    "COUNTRYCODE": 597,
+    "ISOCODES": "SR / SUR"
+  },
+  {
+    "COUNTRY": "Svalbard and Jan Mayen",
+    "COUNTRYCODE": 47,
+    "ISOCODES": "SJ / SJM"
+  },
+  {
+    "COUNTRY": "Swaziland",
+    "COUNTRYCODE": 268,
+    "ISOCODES": "SZ / SWZ"
+  },
+  {
+    "COUNTRY": "Sweden",
+    "COUNTRYCODE": 46,
+    "ISOCODES": "SE / SWE"
+  },
+  {
+    "COUNTRY": "Switzerland",
+    "COUNTRYCODE": 41,
+    "ISOCODES": "CH / CHE"
+  },
+  {
+    "COUNTRY": "Syria",
+    "COUNTRYCODE": 963,
+    "ISOCODES": "SY / SYR"
+  },
+  {
+    "COUNTRY": "Taiwan",
+    "COUNTRYCODE": 886,
+    "ISOCODES": "TW / TWN"
+  },
+  {
+    "COUNTRY": "Tajikistan",
+    "COUNTRYCODE": 992,
+    "ISOCODES": "TJ / TJK"
+  },
+  {
+    "COUNTRY": "Tanzania",
+    "COUNTRYCODE": 255,
+    "ISOCODES": "TZ / TZA"
+  },
+  {
+    "COUNTRY": "Thailand",
+    "COUNTRYCODE": 66,
+    "ISOCODES": "TH / THA"
+  },
+  {
+    "COUNTRY": "Togo",
+    "COUNTRYCODE": 228,
+    "ISOCODES": "TG / TGO"
+  },
+  {
+    "COUNTRY": "Tokelau",
+    "COUNTRYCODE": 690,
+    "ISOCODES": "TK / TKL"
+  },
+  {
+    "COUNTRY": "Tonga",
+    "COUNTRYCODE": 676,
+    "ISOCODES": "TO / TON"
+  },
+  {
+    "COUNTRY": "Trinidad and Tobago",
+    "COUNTRYCODE": "1-868",
+    "ISOCODES": "TT / TTO"
+  },
+  {
+    "COUNTRY": "Tunisia",
+    "COUNTRYCODE": 216,
+    "ISOCODES": "TN / TUN"
+  },
+  {
+    "COUNTRY": "Turkey",
+    "COUNTRYCODE": 90,
+    "ISOCODES": "TR / TUR"
+  },
+  {
+    "COUNTRY": "Turkmenistan",
+    "COUNTRYCODE": 993,
+    "ISOCODES": "TM / TKM"
+  },
+  {
+    "COUNTRY": "Turks and Caicos Islands",
+    "COUNTRYCODE": "1-649",
+    "ISOCODES": "TC / TCA"
+  },
+  {
+    "COUNTRY": "Tuvalu",
+    "COUNTRYCODE": 688,
+    "ISOCODES": "TV / TUV"
+  },
+  {
+    "COUNTRY": "U.S. Virgin Islands",
+    "COUNTRYCODE": "1-340",
+    "ISOCODES": "VI / VIR"
+  },
+  {
+    "COUNTRY": "Uganda",
+    "COUNTRYCODE": 256,
+    "ISOCODES": "UG / UGA"
+  },
+  {
+    "COUNTRY": "Ukraine",
+    "COUNTRYCODE": 380,
+    "ISOCODES": "UA / UKR"
+  },
+  {
+    "COUNTRY": "United Arab Emirates",
+    "COUNTRYCODE": 971,
+    "ISOCODES": "AE / ARE"
+  },
+  {
+    "COUNTRY": "United Kingdom",
+    "COUNTRYCODE": 44,
+    "ISOCODES": "GB / GBR"
+  },
+  {
+    "COUNTRY": "Uruguay",
+    "COUNTRYCODE": 598,
+    "ISOCODES": "UY / URY"
+  },
+  {
+    "COUNTRY": "Uzbekistan",
+    "COUNTRYCODE": 998,
+    "ISOCODES": "UZ / UZB"
+  },
+  {
+    "COUNTRY": "Vanuatu",
+    "COUNTRYCODE": 678,
+    "ISOCODES": "VU / VUT"
+  },
+  {
+    "COUNTRY": "Vatican",
+    "COUNTRYCODE": 379,
+    "ISOCODES": "VA / VAT"
+  },
+  {
+    "COUNTRY": "Venezuela",
+    "COUNTRYCODE": 58,
+    "ISOCODES": "VE / VEN"
+  },
+  {
+    "COUNTRY": "Vietnam",
+    "COUNTRYCODE": 84,
+    "ISOCODES": "VN / VNM"
+  },
+  {
+    "COUNTRY": "Wallis and Futuna",
+    "COUNTRYCODE": 681,
+    "ISOCODES": "WF / WLF"
+  },
+  {
+    "COUNTRY": "Western Sahara",
+    "COUNTRYCODE": 212,
+    "ISOCODES": "EH / ESH"
+  },
+  {
+    "COUNTRY": "Yemen",
+    "COUNTRYCODE": 967,
+    "ISOCODES": "YE / YEM"
+  },
+  {
+    "COUNTRY": "Zambia",
+    "COUNTRYCODE": 260,
+    "ISOCODES": "ZM / ZMB"
+  },
+  {
+    "COUNTRY": "Zimbabwe",
+    "COUNTRYCODE": 263,
+    "ISOCODES": "ZW / ZWE"
+  }
+]

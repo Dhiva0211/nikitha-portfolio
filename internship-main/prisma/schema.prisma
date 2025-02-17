@@ -1,0 +1,184 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL_DEV")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Account {
+  id                     Int       @id @default(autoincrement())
+  userId                 String    @unique @default(cuid())
+  firstName              String
+  lastName               String
+  typeOfBusinessValueId  String
+  typeOfShoppittoValueId String
+  email                  String    @unique
+  password               String
+  emailVerified          DateTime?
+  termsAccepted          Boolean
+  termsAcceptedAt        DateTime
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+  sessions               Session[]
+
+  typeOfBusiness  TypeOfBusiness  @relation("BusinessToAccount", fields: [typeOfBusinessValueId], references: [valueId], onDelete: Cascade)
+  typeOfShoppitto TypeOfShoppitto @relation("ShoppittoToAccount", fields: [typeOfShoppittoValueId], references: [valueId], onDelete: Cascade)
+  BusinessInfo    BusinessInfo?
+
+  @@map("accounts")
+}
+
+model Session {
+  id           Int      @id @default(autoincrement())
+  sessionToken String   @unique @map("session_token")
+  accountId    String      @map("account_id")
+  valid        Boolean
+  refreshToken String   @unique @map("refresh_token")
+  refreshValid Boolean  @default(false)
+  expires      DateTime
+
+  account Account @relation(fields: [accountId], references: [userId])
+
+  @@map("sessions")
+}
+
+model TypeOfBusiness {
+  id       Int       @id @default(autoincrement())
+  valueId  String    @unique @default(cuid())
+  name     String    @unique
+  accounts Account[] @relation("BusinessToAccount")
+
+  @@map("typeOfBusiness")
+}
+
+model TypeOfShoppitto {
+  id       Int       @id @default(autoincrement())
+  valueId  String    @unique @default(cuid())
+  name     String    @unique
+  accounts Account[] @relation("ShoppittoToAccount")
+
+  @@map("typeOfShoppitto")
+}
+
+model TypeOfCategory {
+  id           Int    @id @default(autoincrement())
+  valueId      String @unique @default(cuid())
+  mainCategory String
+  subCategory  String
+
+  businessInfo BusinessInfo[]
+  products     Product[]
+
+  @@map("typeOfCategory")
+}
+
+model Countries {
+  id          Int    @id @default(autoincrement())
+  valueId     String @unique @default(cuid())
+  name        String @unique
+  countryCode String
+  isoCode     String
+  flagUrl     String
+
+  businessInfo BusinessInfo[]
+
+  @@map("countries")
+}
+
+model BusinessInfo {
+  id                                  Int       @id @default(autoincrement())
+  categoryId                          String
+  busLegalName                        String
+  busStartYear                        DateTime?
+  countryCode                         String
+  phoneNumber                         String
+  termsAndConditionSellersAccount     DateTime?
+  termsAndConditionFinishRegistration DateTime?
+  country                             String
+  address1                            String
+  address2                            String?
+  city                                String
+  state                               String
+  postalCode                          String
+  tutorNumber                         String?
+  taxIdNumber                         String
+  idPhotoUrl                          String?
+  electronicSignatureUrl              String?
+  joinInDate                          DateTime? @default(now())
+  userId                              String    @unique
+  layoutId                            String?   @unique
+
+  products Product[]
+
+  category       TypeOfCategory  @relation(fields: [categoryId], references: [valueId])
+  countryInfo    Countries       @relation(fields: [country], references: [valueId])
+  account        Account         @relation(fields: [userId], references: [userId])
+  businessLayout BusinessLayout? @relation(fields: [layoutId], references: [layoutId])
+
+  @@map("businessInfo")
+}
+
+model BusinessLayout {
+  id         Int    @id @default(autoincrement())
+  layoutId   String @unique @default(cuid())
+  logoUrl    String
+  addUrl     String
+  bgColor    String
+  frameColor String
+
+  BusinessInfo BusinessInfo?
+
+  @@map("businessLayout")
+}
+
+model Categories {
+  id          Int     @id @default(autoincrement())
+  valueId     String  @unique @default(cuid())
+  category    String
+  subCategory String
+  item        String?
+  subItem     String?
+
+  products Product[]
+
+  @@map("Categories")
+}
+
+model Plan {
+  id          Int     @id @default(autoincrement())
+  valueId     String  @unique @default(cuid())
+  name        String
+  description String?
+  price       Float
+  productId   String
+
+  product Product @relation(fields: [productId], references: [valueId])
+
+  @@map("Plan")
+}
+
+model Product {
+  id            Int     @id @default(autoincrement())
+  valueId       String  @unique @default(cuid())
+  name          String
+  description   String?
+  price         Float
+  categoryId    String
+  subCategoryId String?
+  businessId    Int
+  videoLink1    String?
+  videoLink2    String?
+  keywords      String?
+  approved      Boolean @default(false)
+  calendarLink  String?
+
+  plans Plan[]
+
+  category    TypeOfCategory @relation(fields: [categoryId], references: [valueId])
+  subCategory Categories?    @relation(fields: [subCategoryId], references: [valueId])
+  business    BusinessInfo   @relation(fields: [businessId], references: [id])
+
+  @@map("Product")
+}
